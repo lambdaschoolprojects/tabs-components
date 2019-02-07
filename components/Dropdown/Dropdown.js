@@ -23,7 +23,7 @@ class Dropdown {
     //this.content.classList.toggle('dropdown-hidden');
     if(Array.from(this.content.classList).includes('dropdown-hidden'))
       TweenLite.to(this.content, .5, { className: '-=dropdown-hidden'});
-      else
+    else
       TweenLite.to(this.content, .5, { className: '+=dropdown-hidden'});
 
   }
